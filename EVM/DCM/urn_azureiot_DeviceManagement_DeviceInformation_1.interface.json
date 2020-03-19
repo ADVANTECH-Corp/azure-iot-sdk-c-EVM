@@ -1,0 +1,66 @@
+{
+  "@context": "http://azureiot.com/v1/contexts/IoTModel.json",
+  "@id": "urn:azureiot:DeviceManagement:DeviceInformation:1",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": "Property",
+      "description": "Company name of the device manufacturer. This could be the same as the name of the original equipment manufacturer (OEM). Ex. Contoso.",
+      "displayName": "Manufacturer",
+      "name": "manufacturer",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": "Device model name or ID. Ex. Surface Book 2.",
+      "displayName": "Device model",
+      "name": "model",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": "Version of the software on your device. This could be the version of your firmware. Ex. 1.3.45",
+      "displayName": "Software version",
+      "name": "swVersion",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": "Name of the operating system on the device. Ex. Windows 10 IoT Core.",
+      "displayName": "Operating system name",
+      "name": "osName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": "Architecture of the processor on the device. Ex. x64 or ARM.",
+      "displayName": "Processor architecture",
+      "name": "processorArchitecture",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": "Name of the manufacturer of the processor on the device. Ex. Intel.",
+      "displayName": "Processor manufacturer",
+      "name": "processorManufacturer",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "description": "Total available storage on the device in kilobytes. Ex. 2048000 kilobytes.",
+      "displayName": "Total storage",
+      "displayUnit": "kilobytes",
+      "name": "totalStorage",
+      "schema": "long"
+    },
+    {
+      "@type": "Property",
+      "description": "Total available memory on the device in kilobytes. Ex. 256000 kilobytes.",
+      "displayName": "Total memory",
+      "displayUnit": "kilobytes",
+      "name": "totalMemory",
+      "schema": "long"
+    }
+  ],
+  "displayName": "Device Information"
+}

@@ -1,0 +1,26 @@
+{
+  "@id": "urn:Advantech:EVM:SensorsInformation:1",
+  "@type": "Interface",
+  "displayName": "Sensor Information",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "displayName": "rms_x",
+      "name": "rms_x",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "displayName": "rms_y",
+      "name": "rms_y",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "displayName": "motor_speed_rpm",
+      "name": "motor_speed_rpm",
+      "schema": "double"
+    }
+  ],
+  "@context": "http://azureiot.com/v1/contexts/IoTModel.json"
+}

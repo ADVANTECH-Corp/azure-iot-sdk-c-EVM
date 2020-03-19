@@ -1,0 +1,117 @@
+{
+  "@id": "urn:Advantech:EVM:DeviceDetailedInformation:1",
+  "@type": "Interface",
+  "displayName": "Device Detailed Information",
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": "Device Name",
+      "name": "DeviceName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Agent ID",
+      "name": "AgentID",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Device Groups",
+      "name": "DeviceGroups",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Wake-On-LAN",
+      "name": "WakeOnLAN",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Connection Status",
+      "name": "ConnectionStatus",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Auto Report",
+      "name": "AutoReport",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Status Message",
+      "name": "StatusMessage",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Product",
+      "name": "Product",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Manufacturer",
+      "name": "Manufacturer",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Version",
+      "name": "Version",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Platform",
+      "name": "Platform",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Operating System",
+      "name": "OperatingSystem",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "MAC",
+      "name": "MAC",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "CPU",
+      "name": "CPU",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Memory",
+      "name": "Memory",
+      "displayUnit": "KB",
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Grafana Folder",
+      "name": "GrafanaFolder",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Grafana Board",
+      "name": "GrafanaBoard",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": "Last Connected At",
+      "name": "LastConnectedAt",
+      "schema": "dateTime"
+    }
+  ],
+  "@context": "http://azureiot.com/v1/contexts/IoTModel.json"
+}
